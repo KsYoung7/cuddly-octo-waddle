@@ -1,0 +1,616 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-10">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="size" type="long" />
+    </attributes>
+    <nodes>
+      <node id="高考" label="高考">
+        <attvalues>
+          <attvalue for="0" value="1608" />
+        </attvalues>
+      </node>
+      <node id="英语" label="英语">
+        <attvalues>
+          <attvalue for="0" value="1315" />
+        </attvalues>
+      </node>
+      <node id="展开" label="展开">
+        <attvalues>
+          <attvalue for="0" value="633" />
+        </attvalues>
+      </node>
+      <node id="2025" label="2025">
+        <attvalues>
+          <attvalue for="0" value="470" />
+        </attvalues>
+      </node>
+      <node id="考生" label="考生">
+        <attvalues>
+          <attvalue for="0" value="444" />
+        </attvalues>
+      </node>
+      <node id="难度" label="难度">
+        <attvalues>
+          <attvalue for="0" value="307" />
+        </attvalues>
+      </node>
+      <node id="作文" label="作文">
+        <attvalues>
+          <attvalue for="0" value="291" />
+        </attvalues>
+      </node>
+      <node id="评论" label="评论">
+        <attvalues>
+          <attvalue for="0" value="281" />
+        </attvalues>
+      </node>
+      <node id="结束" label="结束">
+        <attvalues>
+          <attvalue for="0" value="246" />
+        </attvalues>
+      </node>
+      <node id="李华" label="李华">
+        <attvalues>
+          <attvalue for="0" value="243" />
+        </attvalues>
+      </node>
+      <node id="答案" label="答案">
+        <attvalues>
+          <attvalue for="0" value="237" />
+        </attvalues>
+      </node>
+      <node id="视频" label="视频">
+        <attvalues>
+          <attvalue for="0" value="222" />
+        </attvalues>
+      </node>
+      <node id="微博" label="微博">
+        <attvalues>
+          <attvalue for="0" value="222" />
+        </attvalues>
+      </node>
+      <node id="成绩" label="成绩">
+        <attvalues>
+          <attvalue for="0" value="213" />
+        </attvalues>
+      </node>
+      <node id="超话" label="超话">
+        <attvalues>
+          <attvalue for="0" value="208" />
+        </attvalues>
+      </node>
+      <node id="今年" label="今年">
+        <attvalues>
+          <attvalue for="0" value="207" />
+        </attvalues>
+      </node>
+      <node id="考试" label="考试">
+        <attvalues>
+          <attvalue for="0" value="190" />
+        </attvalues>
+      </node>
+      <node id="数学" label="数学">
+        <attvalues>
+          <attvalue for="0" value="184" />
+        </attvalues>
+      </node>
+      <node id="大学" label="大学">
+        <attvalues>
+          <attvalue for="0" value="179" />
+        </attvalues>
+      </node>
+      <node id="自己" label="自己">
+        <attvalues>
+          <attvalue for="0" value="168" />
+        </attvalues>
+      </node>
+      <node id="北京" label="北京">
+        <attvalues>
+          <attvalue for="0" value="135" />
+        </attvalues>
+      </node>
+      <node id="时间" label="时间">
+        <attvalues>
+          <attvalue for="0" value="130" />
+        </attvalues>
+      </node>
+      <node id="可以" label="可以">
+        <attvalues>
+          <attvalue for="0" value="130" />
+        </attvalues>
+      </node>
+      <node id="真题" label="真题">
+        <attvalues>
+          <attvalue for="0" value="129" />
+        </attvalues>
+      </node>
+      <node id="语文" label="语文">
+        <attvalues>
+          <attvalue for="0" value="128" />
+        </attvalues>
+      </node>
+      <node id="一个" label="一个">
+        <attvalues>
+          <attvalue for="0" value="125" />
+        </attvalues>
+      </node>
+      <node id="全国" label="全国">
+        <attvalues>
+          <attvalue for="0" value="124" />
+        </attvalues>
+      </node>
+      <node id="听力" label="听力">
+        <attvalues>
+          <attvalue for="0" value="124" />
+        </attvalues>
+      </node>
+      <node id="没有" label="没有">
+        <attvalues>
+          <attvalue for="0" value="115" />
+        </attvalues>
+      </node>
+      <node id="考场" label="考场">
+        <attvalues>
+          <attvalue for="0" value="111" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="高考" target="结束" id="0" weight="387" />
+      <edge source="高考" target="大学" id="1" weight="200" />
+      <edge source="高考" target="自己" id="2" weight="215" />
+      <edge source="高考" target="考试" id="3" weight="296" />
+      <edge source="高考" target="展开" id="4" weight="786" />
+      <edge source="高考" target="考场" id="5" weight="138" />
+      <edge source="高考" target="高考" id="6" weight="908" />
+      <edge source="高考" target="今年" id="7" weight="337" />
+      <edge source="高考" target="英语" id="8" weight="1901" />
+      <edge source="高考" target="答案" id="9" weight="462" />
+      <edge source="高考" target="数学" id="10" weight="301" />
+      <edge source="高考" target="没有" id="11" weight="128" />
+      <edge source="高考" target="2025" id="12" weight="748" />
+      <edge source="高考" target="真题" id="13" weight="301" />
+      <edge source="高考" target="超话" id="14" weight="395" />
+      <edge source="高考" target="成绩" id="15" weight="452" />
+      <edge source="高考" target="语文" id="16" weight="242" />
+      <edge source="高考" target="全国" id="17" weight="240" />
+      <edge source="高考" target="时间" id="18" weight="298" />
+      <edge source="高考" target="一个" id="19" weight="136" />
+      <edge source="高考" target="听力" id="20" weight="155" />
+      <edge source="高考" target="北京" id="21" weight="224" />
+      <edge source="高考" target="难度" id="22" weight="361" />
+      <edge source="高考" target="考生" id="23" weight="592" />
+      <edge source="高考" target="微博" id="24" weight="302" />
+      <edge source="高考" target="视频" id="25" weight="313" />
+      <edge source="高考" target="作文" id="26" weight="362" />
+      <edge source="高考" target="可以" id="27" weight="121" />
+      <edge source="高考" target="评论" id="28" weight="364" />
+      <edge source="高考" target="李华" id="29" weight="315" />
+      <edge source="英语" target="答案" id="30" weight="339" />
+      <edge source="英语" target="数学" id="31" weight="286" />
+      <edge source="英语" target="没有" id="32" weight="77" />
+      <edge source="英语" target="展开" id="33" weight="621" />
+      <edge source="英语" target="英语" id="34" weight="767" />
+      <edge source="英语" target="成绩" id="35" weight="156" />
+      <edge source="英语" target="语文" id="36" weight="152" />
+      <edge source="英语" target="全国" id="37" weight="189" />
+      <edge source="英语" target="2025" id="38" weight="520" />
+      <edge source="英语" target="超话" id="39" weight="192" />
+      <edge source="英语" target="自己" id="40" weight="128" />
+      <edge source="英语" target="考场" id="41" weight="110" />
+      <edge source="英语" target="时间" id="42" weight="39" />
+      <edge source="英语" target="结束" id="43" weight="194" />
+      <edge source="英语" target="今年" id="44" weight="318" />
+      <edge source="英语" target="一个" id="45" weight="137" />
+      <edge source="英语" target="听力" id="46" weight="127" />
+      <edge source="英语" target="北京" id="47" weight="223" />
+      <edge source="英语" target="难度" id="48" weight="431" />
+      <edge source="英语" target="考生" id="49" weight="512" />
+      <edge source="英语" target="可以" id="50" weight="156" />
+      <edge source="英语" target="作文" id="51" weight="424" />
+      <edge source="英语" target="真题" id="52" weight="226" />
+      <edge source="英语" target="考试" id="53" weight="215" />
+      <edge source="英语" target="大学" id="54" weight="108" />
+      <edge source="英语" target="视频" id="55" weight="166" />
+      <edge source="英语" target="微博" id="56" weight="163" />
+      <edge source="英语" target="评论" id="57" weight="360" />
+      <edge source="英语" target="李华" id="58" weight="354" />
+      <edge source="展开" target="结束" id="59" weight="164" />
+      <edge source="展开" target="大学" id="60" weight="159" />
+      <edge source="展开" target="自己" id="61" weight="138" />
+      <edge source="展开" target="考试" id="62" weight="131" />
+      <edge source="展开" target="考场" id="63" weight="64" />
+      <edge source="展开" target="答案" id="64" weight="95" />
+      <edge source="展开" target="数学" id="65" weight="96" />
+      <edge source="展开" target="没有" id="66" weight="94" />
+      <edge source="展开" target="2025" id="67" weight="233" />
+      <edge source="展开" target="语文" id="68" weight="71" />
+      <edge source="展开" target="时间" id="69" weight="62" />
+      <edge source="展开" target="今年" id="70" weight="118" />
+      <edge source="展开" target="一个" id="71" weight="89" />
+      <edge source="展开" target="全国" id="72" weight="57" />
+      <edge source="展开" target="听力" id="73" weight="72" />
+      <edge source="展开" target="成绩" id="74" weight="86" />
+      <edge source="展开" target="北京" id="75" weight="78" />
+      <edge source="展开" target="难度" id="76" weight="128" />
+      <edge source="展开" target="考生" id="77" weight="259" />
+      <edge source="展开" target="作文" id="78" weight="163" />
+      <edge source="展开" target="可以" id="79" weight="67" />
+      <edge source="展开" target="超话" id="80" weight="55" />
+      <edge source="展开" target="真题" id="81" weight="54" />
+      <edge source="展开" target="评论" id="82" weight="90" />
+      <edge source="展开" target="展开" id="83" weight="5" />
+      <edge source="展开" target="视频" id="84" weight="17" />
+      <edge source="展开" target="李华" id="85" weight="163" />
+      <edge source="展开" target="微博" id="86" weight="17" />
+      <edge source="2025" target="真题" id="87" weight="151" />
+      <edge source="2025" target="答案" id="88" weight="199" />
+      <edge source="2025" target="超话" id="89" weight="63" />
+      <edge source="2025" target="语文" id="90" weight="66" />
+      <edge source="2025" target="数学" id="91" weight="74" />
+      <edge source="2025" target="听力" id="92" weight="40" />
+      <edge source="2025" target="北京" id="93" weight="106" />
+      <edge source="2025" target="今年" id="94" weight="82" />
+      <edge source="2025" target="难度" id="95" weight="123" />
+      <edge source="2025" target="考生" id="96" weight="210" />
+      <edge source="2025" target="2025" id="97" weight="75" />
+      <edge source="2025" target="时间" id="98" weight="43" />
+      <edge source="2025" target="考试" id="99" weight="124" />
+      <edge source="2025" target="考场" id="100" weight="37" />
+      <edge source="2025" target="评论" id="101" weight="106" />
+      <edge source="2025" target="全国" id="102" weight="120" />
+      <edge source="2025" target="微博" id="103" weight="73" />
+      <edge source="2025" target="视频" id="104" weight="78" />
+      <edge source="2025" target="没有" id="105" weight="16" />
+      <edge source="2025" target="作文" id="106" weight="87" />
+      <edge source="2025" target="结束" id="107" weight="96" />
+      <edge source="2025" target="自己" id="108" weight="18" />
+      <edge source="2025" target="可以" id="109" weight="19" />
+      <edge source="2025" target="成绩" id="110" weight="31" />
+      <edge source="2025" target="大学" id="111" weight="14" />
+      <edge source="2025" target="一个" id="112" weight="30" />
+      <edge source="2025" target="李华" id="113" weight="85" />
+      <edge source="考生" target="听力" id="114" weight="82" />
+      <edge source="考生" target="北京" id="115" weight="101" />
+      <edge source="考生" target="今年" id="116" weight="122" />
+      <edge source="考生" target="难度" id="117" weight="270" />
+      <edge source="考生" target="考生" id="118" weight="193" />
+      <edge source="考生" target="数学" id="119" weight="32" />
+      <edge source="考生" target="可以" id="120" weight="27" />
+      <edge source="考生" target="考场" id="121" weight="84" />
+      <edge source="考生" target="时间" id="122" weight="24" />
+      <edge source="考生" target="考试" id="123" weight="135" />
+      <edge source="考生" target="一个" id="124" weight="21" />
+      <edge source="考生" target="超话" id="125" weight="40" />
+      <edge source="考生" target="成绩" id="126" weight="28" />
+      <edge source="考生" target="语文" id="127" weight="33" />
+      <edge source="考生" target="答案" id="128" weight="37" />
+      <edge source="考生" target="评论" id="129" weight="49" />
+      <edge source="考生" target="大学" id="130" weight="15" />
+      <edge source="考生" target="结束" id="131" weight="138" />
+      <edge source="考生" target="微博" id="132" weight="80" />
+      <edge source="考生" target="视频" id="133" weight="81" />
+      <edge source="考生" target="自己" id="134" weight="27" />
+      <edge source="考生" target="没有" id="135" weight="7" />
+      <edge source="考生" target="作文" id="136" weight="172" />
+      <edge source="考生" target="真题" id="137" weight="12" />
+      <edge source="考生" target="李华" id="138" weight="263" />
+      <edge source="考生" target="全国" id="139" weight="46" />
+      <edge source="难度" target="听力" id="140" weight="70" />
+      <edge source="难度" target="北京" id="141" weight="38" />
+      <edge source="难度" target="今年" id="142" weight="102" />
+      <edge source="难度" target="自己" id="143" weight="14" />
+      <edge source="难度" target="语文" id="144" weight="11" />
+      <edge source="难度" target="数学" id="145" weight="36" />
+      <edge source="难度" target="一个" id="146" weight="19" />
+      <edge source="难度" target="难度" id="147" weight="77" />
+      <edge source="难度" target="超话" id="148" weight="14" />
+      <edge source="难度" target="真题" id="149" weight="18" />
+      <edge source="难度" target="答案" id="150" weight="22" />
+      <edge source="难度" target="评论" id="151" weight="23" />
+      <edge source="难度" target="没有" id="152" weight="14" />
+      <edge source="难度" target="可以" id="153" weight="18" />
+      <edge source="难度" target="成绩" id="154" weight="19" />
+      <edge source="难度" target="考试" id="155" weight="37" />
+      <edge source="难度" target="微博" id="156" weight="39" />
+      <edge source="难度" target="视频" id="157" weight="38" />
+      <edge source="难度" target="作文" id="158" weight="69" />
+      <edge source="难度" target="李华" id="159" weight="31" />
+      <edge source="难度" target="全国" id="160" weight="42" />
+      <edge source="难度" target="结束" id="161" weight="45" />
+      <edge source="难度" target="时间" id="162" weight="13" />
+      <edge source="难度" target="考场" id="163" weight="38" />
+      <edge source="难度" target="大学" id="164" weight="9" />
+      <edge source="作文" target="全国" id="165" weight="30" />
+      <edge source="作文" target="作文" id="166" weight="65" />
+      <edge source="作文" target="结束" id="167" weight="53" />
+      <edge source="作文" target="语文" id="168" weight="37" />
+      <edge source="作文" target="数学" id="169" weight="36" />
+      <edge source="作文" target="真题" id="170" weight="21" />
+      <edge source="作文" target="听力" id="171" weight="28" />
+      <edge source="作文" target="自己" id="172" weight="25" />
+      <edge source="作文" target="今年" id="173" weight="86" />
+      <edge source="作文" target="可以" id="174" weight="19" />
+      <edge source="作文" target="考场" id="175" weight="21" />
+      <edge source="作文" target="微博" id="176" weight="31" />
+      <edge source="作文" target="视频" id="177" weight="32" />
+      <edge source="作文" target="考试" id="178" weight="36" />
+      <edge source="作文" target="一个" id="179" weight="23" />
+      <edge source="作文" target="北京" id="180" weight="102" />
+      <edge source="作文" target="李华" id="181" weight="261" />
+      <edge source="作文" target="超话" id="182" weight="10" />
+      <edge source="作文" target="成绩" id="183" weight="10" />
+      <edge source="作文" target="大学" id="184" weight="11" />
+      <edge source="作文" target="没有" id="185" weight="7" />
+      <edge source="作文" target="答案" id="186" weight="24" />
+      <edge source="作文" target="时间" id="187" weight="10" />
+      <edge source="作文" target="评论" id="188" weight="41" />
+      <edge source="评论" target="超话" id="189" weight="75" />
+      <edge source="评论" target="答案" id="190" weight="173" />
+      <edge source="评论" target="数学" id="191" weight="26" />
+      <edge source="评论" target="语文" id="192" weight="18" />
+      <edge source="评论" target="真题" id="193" weight="89" />
+      <edge source="评论" target="北京" id="194" weight="47" />
+      <edge source="评论" target="考试" id="195" weight="20" />
+      <edge source="评论" target="可以" id="196" weight="55" />
+      <edge source="评论" target="听力" id="197" weight="29" />
+      <edge source="评论" target="今年" id="198" weight="39" />
+      <edge source="评论" target="全国" id="199" weight="27" />
+      <edge source="评论" target="结束" id="200" weight="24" />
+      <edge source="评论" target="一个" id="201" weight="37" />
+      <edge source="评论" target="没有" id="202" weight="13" />
+      <edge source="评论" target="考场" id="203" weight="10" />
+      <edge source="评论" target="自己" id="204" weight="18" />
+      <edge source="评论" target="李华" id="205" weight="31" />
+      <edge source="评论" target="时间" id="206" weight="3" />
+      <edge source="评论" target="微博" id="207" weight="29" />
+      <edge source="评论" target="视频" id="208" weight="25" />
+      <edge source="评论" target="成绩" id="209" weight="11" />
+      <edge source="评论" target="大学" id="210" weight="9" />
+      <edge source="评论" target="评论" id="211" weight="7" />
+      <edge source="结束" target="大学" id="212" weight="131" />
+      <edge source="结束" target="自己" id="213" weight="85" />
+      <edge source="结束" target="考试" id="214" weight="113" />
+      <edge source="结束" target="考场" id="215" weight="33" />
+      <edge source="结束" target="今年" id="216" weight="59" />
+      <edge source="结束" target="一个" id="217" weight="21" />
+      <edge source="结束" target="全国" id="218" weight="25" />
+      <edge source="结束" target="语文" id="219" weight="24" />
+      <edge source="结束" target="数学" id="220" weight="20" />
+      <edge source="结束" target="没有" id="221" weight="30" />
+      <edge source="结束" target="成绩" id="222" weight="26" />
+      <edge source="结束" target="答案" id="223" weight="29" />
+      <edge source="结束" target="可以" id="224" weight="14" />
+      <edge source="结束" target="结束" id="225" weight="41" />
+      <edge source="结束" target="时间" id="226" weight="31" />
+      <edge source="结束" target="听力" id="227" weight="19" />
+      <edge source="结束" target="微博" id="228" weight="43" />
+      <edge source="结束" target="视频" id="229" weight="46" />
+      <edge source="结束" target="超话" id="230" weight="22" />
+      <edge source="结束" target="真题" id="231" weight="8" />
+      <edge source="结束" target="北京" id="232" weight="38" />
+      <edge source="结束" target="李华" id="233" weight="82" />
+      <edge source="李华" target="今年" id="234" weight="122" />
+      <edge source="李华" target="一个" id="235" weight="16" />
+      <edge source="李华" target="北京" id="236" weight="127" />
+      <edge source="李华" target="李华" id="237" weight="189" />
+      <edge source="李华" target="考试" id="238" weight="52" />
+      <edge source="李华" target="微博" id="239" weight="29" />
+      <edge source="李华" target="视频" id="240" weight="30" />
+      <edge source="李华" target="没有" id="241" weight="6" />
+      <edge source="李华" target="大学" id="242" weight="19" />
+      <edge source="李华" target="考场" id="243" weight="18" />
+      <edge source="李华" target="超话" id="244" weight="7" />
+      <edge source="李华" target="自己" id="245" weight="41" />
+      <edge source="李华" target="全国" id="246" weight="27" />
+      <edge source="李华" target="听力" id="247" weight="8" />
+      <edge source="李华" target="真题" id="248" weight="9" />
+      <edge source="李华" target="答案" id="249" weight="10" />
+      <edge source="答案" target="数学" id="250" weight="70" />
+      <edge source="答案" target="没有" id="251" weight="9" />
+      <edge source="答案" target="真题" id="252" weight="180" />
+      <edge source="答案" target="超话" id="253" weight="71" />
+      <edge source="答案" target="语文" id="254" weight="54" />
+      <edge source="答案" target="成绩" id="255" weight="18" />
+      <edge source="答案" target="考试" id="256" weight="18" />
+      <edge source="答案" target="答案" id="257" weight="113" />
+      <edge source="答案" target="北京" id="258" weight="74" />
+      <edge source="答案" target="今年" id="259" weight="33" />
+      <edge source="答案" target="微博" id="260" weight="6" />
+      <edge source="答案" target="视频" id="261" weight="6" />
+      <edge source="答案" target="时间" id="262" weight="10" />
+      <edge source="答案" target="自己" id="263" weight="14" />
+      <edge source="答案" target="可以" id="264" weight="35" />
+      <edge source="答案" target="一个" id="265" weight="14" />
+      <edge source="答案" target="大学" id="266" weight="4" />
+      <edge source="答案" target="考场" id="267" weight="4" />
+      <edge source="答案" target="全国" id="268" weight="80" />
+      <edge source="答案" target="听力" id="269" weight="26" />
+      <edge source="视频" target="一个" id="270" weight="11" />
+      <edge source="视频" target="成绩" id="271" weight="120" />
+      <edge source="视频" target="时间" id="272" weight="86" />
+      <edge source="视频" target="微博" id="273" weight="234" />
+      <edge source="视频" target="听力" id="274" weight="15" />
+      <edge source="视频" target="北京" id="275" weight="14" />
+      <edge source="视频" target="视频" id="276" weight="29" />
+      <edge source="视频" target="今年" id="277" weight="30" />
+      <edge source="视频" target="可以" id="278" weight="5" />
+      <edge source="视频" target="全国" id="279" weight="13" />
+      <edge source="视频" target="自己" id="280" weight="9" />
+      <edge source="视频" target="考场" id="281" weight="26" />
+      <edge source="视频" target="没有" id="282" weight="2" />
+      <edge source="视频" target="超话" id="283" weight="19" />
+      <edge source="视频" target="考试" id="284" weight="22" />
+      <edge source="视频" target="数学" id="285" weight="8" />
+      <edge source="视频" target="大学" id="286" weight="2" />
+      <edge source="视频" target="语文" id="287" weight="3" />
+      <edge source="微博" target="成绩" id="288" weight="121" />
+      <edge source="微博" target="时间" id="289" weight="82" />
+      <edge source="微博" target="听力" id="290" weight="17" />
+      <edge source="微博" target="北京" id="291" weight="14" />
+      <edge source="微博" target="微博" id="292" weight="21" />
+      <edge source="微博" target="今年" id="293" weight="26" />
+      <edge source="微博" target="可以" id="294" weight="8" />
+      <edge source="微博" target="全国" id="295" weight="12" />
+      <edge source="微博" target="考场" id="296" weight="23" />
+      <edge source="微博" target="超话" id="297" weight="29" />
+      <edge source="微博" target="考试" id="298" weight="20" />
+      <edge source="微博" target="自己" id="299" weight="8" />
+      <edge source="微博" target="语文" id="300" weight="5" />
+      <edge source="微博" target="数学" id="301" weight="11" />
+      <edge source="微博" target="真题" id="302" weight="3" />
+      <edge source="微博" target="大学" id="303" weight="2" />
+      <edge source="微博" target="一个" id="304" weight="8" />
+      <edge source="成绩" target="语文" id="305" weight="52" />
+      <edge source="成绩" target="数学" id="306" weight="57" />
+      <edge source="成绩" target="一个" id="307" weight="13" />
+      <edge source="成绩" target="大学" id="308" weight="7" />
+      <edge source="成绩" target="没有" id="309" weight="8" />
+      <edge source="成绩" target="可以" id="310" weight="15" />
+      <edge source="成绩" target="考试" id="311" weight="21" />
+      <edge source="成绩" target="时间" id="312" weight="212" />
+      <edge source="成绩" target="成绩" id="313" weight="128" />
+      <edge source="成绩" target="自己" id="314" weight="17" />
+      <edge source="成绩" target="今年" id="315" weight="8" />
+      <edge source="成绩" target="考场" id="316" weight="5" />
+      <edge source="成绩" target="超话" id="317" weight="18" />
+      <edge source="成绩" target="全国" id="318" weight="17" />
+      <edge source="成绩" target="真题" id="319" weight="3" />
+      <edge source="成绩" target="北京" id="320" weight="4" />
+      <edge source="超话" target="真题" id="321" weight="36" />
+      <edge source="超话" target="数学" id="322" weight="51" />
+      <edge source="超话" target="超话" id="323" weight="84" />
+      <edge source="超话" target="今年" id="324" weight="14" />
+      <edge source="超话" target="一个" id="325" weight="16" />
+      <edge source="超话" target="听力" id="326" weight="3" />
+      <edge source="超话" target="北京" id="327" weight="9" />
+      <edge source="超话" target="可以" id="328" weight="47" />
+      <edge source="超话" target="没有" id="329" weight="5" />
+      <edge source="超话" target="自己" id="330" weight="9" />
+      <edge source="超话" target="语文" id="331" weight="20" />
+      <edge source="超话" target="时间" id="332" weight="11" />
+      <edge source="超话" target="全国" id="333" weight="14" />
+      <edge source="超话" target="大学" id="334" weight="10" />
+      <edge source="超话" target="考试" id="335" weight="17" />
+      <edge source="超话" target="考场" id="336" weight="7" />
+      <edge source="今年" target="一个" id="337" weight="26" />
+      <edge source="今年" target="全国" id="338" weight="29" />
+      <edge source="今年" target="语文" id="339" weight="20" />
+      <edge source="今年" target="数学" id="340" weight="16" />
+      <edge source="今年" target="听力" id="341" weight="28" />
+      <edge source="今年" target="北京" id="342" weight="46" />
+      <edge source="今年" target="自己" id="343" weight="28" />
+      <edge source="今年" target="今年" id="344" weight="29" />
+      <edge source="今年" target="考场" id="345" weight="22" />
+      <edge source="今年" target="没有" id="346" weight="12" />
+      <edge source="今年" target="时间" id="347" weight="8" />
+      <edge source="今年" target="考试" id="348" weight="46" />
+      <edge source="今年" target="可以" id="349" weight="19" />
+      <edge source="今年" target="真题" id="350" weight="21" />
+      <edge source="今年" target="大学" id="351" weight="9" />
+      <edge source="考试" target="大学" id="352" weight="59" />
+      <edge source="考试" target="自己" id="353" weight="32" />
+      <edge source="考试" target="时间" id="354" weight="33" />
+      <edge source="考试" target="可以" id="355" weight="18" />
+      <edge source="考试" target="考试" id="356" weight="56" />
+      <edge source="考试" target="考场" id="357" weight="30" />
+      <edge source="考试" target="没有" id="358" weight="9" />
+      <edge source="考试" target="数学" id="359" weight="13" />
+      <edge source="考试" target="一个" id="360" weight="12" />
+      <edge source="考试" target="语文" id="361" weight="14" />
+      <edge source="考试" target="北京" id="362" weight="37" />
+      <edge source="考试" target="真题" id="363" weight="4" />
+      <edge source="考试" target="全国" id="364" weight="16" />
+      <edge source="考试" target="听力" id="365" weight="24" />
+      <edge source="数学" target="没有" id="366" weight="26" />
+      <edge source="数学" target="语文" id="367" weight="126" />
+      <edge source="数学" target="数学" id="368" weight="36" />
+      <edge source="数学" target="时间" id="369" weight="17" />
+      <edge source="数学" target="一个" id="370" weight="18" />
+      <edge source="数学" target="全国" id="371" weight="18" />
+      <edge source="数学" target="听力" id="372" weight="8" />
+      <edge source="数学" target="可以" id="373" weight="18" />
+      <edge source="数学" target="自己" id="374" weight="24" />
+      <edge source="数学" target="真题" id="375" weight="48" />
+      <edge source="数学" target="考场" id="376" weight="13" />
+      <edge source="数学" target="北京" id="377" weight="10" />
+      <edge source="数学" target="大学" id="378" weight="7" />
+      <edge source="大学" target="自己" id="379" weight="144" />
+      <edge source="大学" target="大学" id="380" weight="147" />
+      <edge source="大学" target="一个" id="381" weight="11" />
+      <edge source="大学" target="没有" id="382" weight="3" />
+      <edge source="大学" target="可以" id="383" weight="26" />
+      <edge source="大学" target="听力" id="384" weight="7" />
+      <edge source="大学" target="时间" id="385" weight="2" />
+      <edge source="大学" target="全国" id="386" weight="4" />
+      <edge source="自己" target="考场" id="387" weight="14" />
+      <edge source="自己" target="没有" id="388" weight="39" />
+      <edge source="自己" target="语文" id="389" weight="15" />
+      <edge source="自己" target="一个" id="390" weight="38" />
+      <edge source="自己" target="可以" id="391" weight="24" />
+      <edge source="自己" target="听力" id="392" weight="15" />
+      <edge source="自己" target="自己" id="393" weight="30" />
+      <edge source="自己" target="时间" id="394" weight="21" />
+      <edge source="自己" target="北京" id="395" weight="5" />
+      <edge source="自己" target="真题" id="396" weight="2" />
+      <edge source="自己" target="全国" id="397" weight="3" />
+      <edge source="北京" target="听力" id="398" weight="12" />
+      <edge source="北京" target="北京" id="399" weight="33" />
+      <edge source="北京" target="语文" id="400" weight="6" />
+      <edge source="北京" target="真题" id="401" weight="44" />
+      <edge source="北京" target="没有" id="402" weight="3" />
+      <edge source="北京" target="时间" id="403" weight="5" />
+      <edge source="北京" target="一个" id="404" weight="6" />
+      <edge source="北京" target="全国" id="405" weight="26" />
+      <edge source="北京" target="可以" id="406" weight="5" />
+      <edge source="北京" target="考场" id="407" weight="2" />
+      <edge source="时间" target="语文" id="408" weight="7" />
+      <edge source="时间" target="时间" id="409" weight="40" />
+      <edge source="时间" target="可以" id="410" weight="6" />
+      <edge source="时间" target="考场" id="411" weight="9" />
+      <edge source="时间" target="一个" id="412" weight="5" />
+      <edge source="时间" target="没有" id="413" weight="16" />
+      <edge source="时间" target="真题" id="414" weight="5" />
+      <edge source="时间" target="全国" id="415" weight="12" />
+      <edge source="时间" target="听力" id="416" weight="8" />
+      <edge source="可以" target="可以" id="417" weight="33" />
+      <edge source="可以" target="考场" id="418" weight="8" />
+      <edge source="可以" target="一个" id="419" weight="22" />
+      <edge source="可以" target="语文" id="420" weight="8" />
+      <edge source="可以" target="听力" id="421" weight="11" />
+      <edge source="可以" target="没有" id="422" weight="17" />
+      <edge source="可以" target="真题" id="423" weight="9" />
+      <edge source="可以" target="全国" id="424" weight="10" />
+      <edge source="真题" target="语文" id="425" weight="53" />
+      <edge source="真题" target="听力" id="426" weight="13" />
+      <edge source="真题" target="真题" id="427" weight="23" />
+      <edge source="真题" target="全国" id="428" weight="55" />
+      <edge source="真题" target="一个" id="429" weight="9" />
+      <edge source="真题" target="没有" id="430" weight="2" />
+      <edge source="语文" target="一个" id="431" weight="16" />
+      <edge source="语文" target="全国" id="432" weight="18" />
+      <edge source="语文" target="没有" id="433" weight="8" />
+      <edge source="语文" target="语文" id="434" weight="23" />
+      <edge source="语文" target="听力" id="435" weight="3" />
+      <edge source="一个" target="全国" id="436" weight="7" />
+      <edge source="一个" target="一个" id="437" weight="18" />
+      <edge source="一个" target="没有" id="438" weight="45" />
+      <edge source="一个" target="考场" id="439" weight="14" />
+      <edge source="一个" target="听力" id="440" weight="8" />
+      <edge source="全国" target="听力" id="441" weight="9" />
+      <edge source="全国" target="全国" id="442" weight="25" />
+      <edge source="全国" target="考场" id="443" weight="12" />
+      <edge source="全国" target="没有" id="444" weight="2" />
+      <edge source="听力" target="听力" id="445" weight="30" />
+      <edge source="听力" target="没有" id="446" weight="11" />
+      <edge source="听力" target="考场" id="447" weight="21" />
+      <edge source="没有" target="考场" id="448" weight="17" />
+      <edge source="没有" target="没有" id="449" weight="41" />
+      <edge source="考场" target="考场" id="450" weight="14" />
+    </edges>
+  </graph>
+</gexf>
